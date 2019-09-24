@@ -1,0 +1,33 @@
+commented git commands in .env file
+this should be .env file rather than env.js (Already intimated once about it)(done)
+code in env is not formatted(done)
+
+Error messages should not be in block letters(done)
+"saltRounds" is used but it is not defined anywhere(done)
+
+user.js routes: Comments are missing(done)
+Use of undefined constant "User" (done)
+Use of "var" is there, It should not be used as we are following ES6 compliances (done)
+check for the facility of custom messages (not found)
+validator api returned this which is not meaningful: (done)
+"error": {
+        "code": 404,
+        "message": "PAGE NOT FOUND"
+    }
+comments are missing there as well
+
+Controller: user.js
+improve login method with comments and req variables(done)
+Use === instead of == (recommended)(done)
+variable names used are not meaningful(done)
+
+user.js model
+sequelize : defined but value never used(done)
+module.exports usage is not consistent(done)
+        Using modules to export class or to export different functions ? Which approach is better? (R & D) 
+
+Below Average
+Average
+Good
+Best
+Exceptional

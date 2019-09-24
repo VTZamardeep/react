@@ -1,0 +1,36 @@
+{
+  "name": "goibibo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "auth.js",
+  "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
+    "bcrypt": "^3.0.6",
+    "domain": "0.0.1",
+    "dotenv": "^8.0.0",
+    "eslint": "^6.1.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.1.1",
+    "fs": "0.0.1-security",
+    "helmet": "^3.20.0",
+    "json-validator": "0.0.34",
+    "jsonwebtoken": "^8.5.1",
+    "moment-timezone": "^0.5.26",
+    "mongodb": "^3.3.0",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "mysql": "^2.17.1",
+    "mysql2": "^1.6.5",
+    "nodemon": "^1.19.1",
+    "save": "^2.4.0",
+    "sequelize": "^5.10.3",
+    "swagger": "^0.7.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

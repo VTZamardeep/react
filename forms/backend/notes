@@ -1,0 +1,32 @@
+
+  ---------------------------------------------------GIT COMMANDS-------------------------------------------------------------------------------------------------------
+ * cd existing_folder
+git init
+git remote add origin http://gitlabint.vtnetzwelt.com/root/dsie-projects-amardeepnodeassignments.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+cd existing_repo
+git remote rename origin old-origin
+git remote add origin http://gitlabint.vtnetzwelt.com/root/dsie-projects-amardeepnodeassignments.git
+git push -u origin --all
+git push -u origin --tags
+ 
+
+ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ global.d = require('domain').create();
+
+
+*********************for adding attchments to send grid****************
+attachments: [
+            {
+              filename: 'test.txt',
+              path: __dirname + '/test.txt'
+            }
+          ]
+***********************************************************
+select a.name,b.hotelId ,b.rooms from hotels a left join (select hotelId,checkIn, sum(rooms) as rooms from bookings where checkIn IN ("2019-08-14","2019-08-15","2019-08-16",'2019-08-17') group by checkIn,hotelId) b on a.id=b.hotelId;
+
+
+
+select a.name,b.hotelId,b.checkIn ,b.rooms from (select * from hotels where city='delhi') a  left join (select hotelId,checkIn, sum(rooms) as rooms from bookings where checkIn IN ("2019-08-14","2019-08-15","2019-08-16",'2019-08-17') group by checkIn,hotelId) b on a.id=b.hotelId;

@@ -1,0 +1,14 @@
+.Card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding-top: 15px;
+  text-align: center;
+  background-color: #0a56a5;
+  border: #f1f1f1 solid 2px;
+
+}
+
+.CardAns {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #0a56a5;
+  border: #f1f1f1 solid 2px;
+}
